@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import GallerySection from "@/components/GallerySection";
 import WorkflowSection from "@/components/WorkflowSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import PricingSection from "@/components/PricingSection";
@@ -12,6 +13,7 @@ const Index = () => {
     <main className="min-h-screen bg-background">
       <Header />
       <HeroSection />
+      <GallerySection />
       <WorkflowSection />
       <FeaturesSection />
       <PricingSection />
