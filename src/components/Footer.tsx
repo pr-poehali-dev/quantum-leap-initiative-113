@@ -20,7 +20,8 @@ const Footer = () => {
               <br />
               ОСМОТРЫ И АНАЛИЗЫ
             </p>
-            <p className="text-xs font-mono text-muted-foreground mt-4">ПН–СБ 8:00–20:00</p>
+            <p className="text-xs font-mono text-muted-foreground mt-4">ПН–ПТ 8:00–16:00</p>
+            <p className="text-xs font-mono text-muted-foreground">Процедурный: 8:00–12:00</p>
           </div>
 
           {/* Directory */}
@@ -56,8 +57,9 @@ const Footer = () => {
             <h4 className="text-xs font-mono text-muted-foreground mb-4">КОНТАКТЫ</h4>
             <div className="bg-secondary/50 rounded-xl p-4 font-mono text-xs space-y-3">
               <div>
-                <p className="text-primary font-semibold">ПН–СБ: 8:00–20:00</p>
-                <p className="text-muted-foreground mt-0.5">Набережные Челны, пр. Хасана Туфана, д. 53</p>
+                <p className="text-primary font-semibold">ПН–ПТ: 8:00–16:00</p>
+                <p className="text-muted-foreground mt-0.5">Процедурный кабинет: 8:00–12:00</p>
+                <p className="text-muted-foreground mt-1">Набережные Челны, пр. Хасана Туфана, д. 53</p>
                 <p className="text-muted-foreground">(13/02 по комплексу)</p>
               </div>
               <div>
@@ -96,7 +98,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row items-center justify-between mt-12 pt-8 border-t border-border">
           <p className="text-xs text-muted-foreground">2026 МЕДЛАБ. ВСЕ ПРАВА ЗАЩИЩЕНЫ.</p>
-          <p className="text-xs text-muted-foreground">ЛИЦЕНЗИРОВАННАЯ МЕДИЦИНСКАЯ ДЕЯТЕЛЬНОСТЬ.</p>
+          <p className="text-xs text-muted-foreground">ЛИЦЕНЗИЯ №Л041-01181-16/00327538 ОТ 15.09.2021</p>
         </div>
       </div>
     </footer>

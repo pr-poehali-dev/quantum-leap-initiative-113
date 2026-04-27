@@ -66,7 +66,7 @@ const HeroSection = () => {
               <div className="bg-[#3d6b5e] rounded-2xl p-6 my-6 mx-auto max-w-sm">
                 <div className="flex justify-between text-[8px] text-white/70 font-mono mb-2 px-2">
                   <span>НАШИ УСЛУГИ</span>
-                  <span>ПН-СБ 8:00-20:00</span>
+                  <span>ПН-ПТ 8:00-16:00</span>
                 </div>
                 <div className="text-[10px] text-white/80 font-mono mb-4 px-2">
                   <p>Направление: Медосмотры</p>
